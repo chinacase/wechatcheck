@@ -21,9 +21,13 @@ import (
 
 func main() {
 
+	func main() {
+
 	fmt.Println("hello world")
-	r := wechat.CheckURL("www.52bd.net/code/256.html")
+	r := wechat.CheckURL("www.baidu.com/")
+	//r := wechat.CheckURL("https://www.baidu.com/") //或者
 	fmt.Println(r)
+}
 }
 ```
 ```
