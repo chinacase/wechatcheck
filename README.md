@@ -1,6 +1,6 @@
 # wechatcheck
 
-  微信相关的方法
+  微信域名检测
 ------
 # install
 ```
