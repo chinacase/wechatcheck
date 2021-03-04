@@ -8,17 +8,17 @@ import (
 )
 
 const (
-	//StatusUnknown 未知
+	//StatusUnknown 安全性未知
 	StatusUnknown = 1
-	//StatusPass 通过
+	//StatusPass 安全网站
 	StatusPass = 3
-	//StatusNoPass 不通过
+	//StatusNoPass 危险网站
 	StatusNoPass = 2
 )
 
 //Result 返回信息
 type Result struct {
-	Status int    //状态 1 通过 0 不通过 2 未知
+	Status int    //状态 1：安全性未知 2：危险网站 3：安全网站
 	Msg    string //提示
 }
 
