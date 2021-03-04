@@ -9,11 +9,11 @@ import (
 
 const (
 	//StatusUnknown 未知
-	StatusUnknown = 2
+	StatusUnknown = 1
 	//StatusPass 通过
-	StatusPass = 1
+	StatusPass = 3
 	//StatusNoPass 不通过
-	StatusNoPass = 0
+	StatusNoPass = 2
 )
 
 //Result 返回信息
