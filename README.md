@@ -30,11 +30,4 @@ func main() {
 }
 }
 ```
-```
-//Result 返回信息
-type Result struct {
-	Status int    //状态 1 通过 0 不通过 2 未知
-	Msg    string //提示
-}
-
-```
++ Status 状态 1：安全性未知 2：危险网站 3：安全网站
