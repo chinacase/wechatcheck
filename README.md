@@ -1,14 +1,14 @@
 # wechatcheck
 
   微信域名检测
-------
+
 # install
 ```
 go get -u github.com/chinacase/wechatcheck
 ```
 
 # example
-------
+
 ```
 package main
 
